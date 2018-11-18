@@ -1,0 +1,20 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-tpc-mad-reliable  {
+  color: rgb(25, 23, 23);
+  margin: auto 0;
+  font-family: 'simplon mono', monospace;
+}
+
+.wp-block-tpc-mad-reliable table {
+  min-width: 100%;
+
+  tr td {
+    min-width: 50%;
+    overflow: hidden;
+  }
+}

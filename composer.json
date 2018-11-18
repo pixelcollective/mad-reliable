@@ -1,0 +1,21 @@
+{
+  "name": "tiny-pixel/mad-reliable",
+  "description": "Gutenberg support for Uptime Robot.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "uptime robot",
+    "gutenberg"
+  ],
+  "homepage": "https://github.com/pixel-collective/mad-reliable",
+  "license": "MIT",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "TPC\\Uptime\\": "app/"
+    }
+  }
+}
